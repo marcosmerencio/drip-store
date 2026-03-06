@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  /* Configuração de Fonte */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Configuração de Cores (Loja Drip) */
+  --color-primary: #C71585;
+  --color-dark-gray-2: #A9A9A9;
+
+  /* No v4, você também pode definir bordas e raios se quiser */
+  --radius-xl: 0.75rem;
+}
