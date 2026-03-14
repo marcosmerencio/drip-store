@@ -20,7 +20,7 @@ const ProductListing = ({ products }) => {
   });
 
   return (
-    <section className="px-4 mb-12">
+    <section className="px-1 sm:px-4 mb-12">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-lg font-semibold">Produtos em destaque:</h2>
         {isHomePage && (
@@ -34,7 +34,7 @@ const ProductListing = ({ products }) => {
         )}
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-2 sm:gap-4">
         {Array.isArray(products) &&
           products?.map((product, index) => (
             <ProductCard

@@ -41,10 +41,15 @@ const SearchBar = () => {
       />
       <button
         onClick={handleSearch}
-        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-pink-600 transition"
-        aria-label="Buscar"
+        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-pink-600 transition group"
+        aria-label="Buscar produtos"
+        title="Pesquisar produtos"
       >
         <FiSearch className="text-lg" />
+        {/* Tooltip Desktop */}
+        <span className="absolute bottom-full right-0 mb-2 px-3 py-1 bg-gray-800 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none hidden md:block">
+          Pesquisar produtos
+        </span>
       </button>
     </div>
   );

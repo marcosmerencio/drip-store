@@ -39,7 +39,7 @@ const ProductCard = ({ product = {} }) => {
   };
 
   return (
-    <div className="flex flex-col border rounded-lg overflow-hidden shadow-md bg-white transition hover:shadow-lg w-full">
+    <div className="flex flex-col rounded-lg overflow-hidden shadow-md bg-white transition hover:shadow-lg w-full box-border">
       <div className="relative h-56 md:h-60 flex items-center justify-center p-4">
         {discountPercentage && (
           <span className="absolute top-2 left-2 bg-lime-200 text-xs font-bold text-gray-800 px-2 py-1 rounded">
@@ -53,9 +53,9 @@ const ProductCard = ({ product = {} }) => {
         />
       </div>
 
-      <div className="p-4 flex flex-col gap-2">
+      <div className="px-2 py-3 md:px-4 md:py-4 flex flex-col gap-2">
         <p className="text-sm text-gray-500">{category || "Produto"}</p>
-        <p className="font-medium text-sm">{name}</p>
+        <p className="font-medium text-sm break-words">{name}</p>
 
         <div className="text-sm">
           {typeof price === "number" && priceDiscount && (

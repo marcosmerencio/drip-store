@@ -22,12 +22,9 @@ const ProductInfo = ({ product }) => {
 
   return (
     <div className="flex flex-col">
-      {/* 
-        TODA A PARTE SUPERIOR DO SEU COMPONENTE ESTÁ INTACTA, 
-        COM OS SEUS AJUSTES DE ESTILO.
-      */}
       <h1 className="text-xl lg:text-2xl font-bold text-gray-800">{product.name}</h1>
       <span className="text-sm text-gray-400 mt-2">Casual | {product.brand} | {product.reference}</span>
+      
       <div className="flex items-center gap-3 my-3">
         <div className="flex items-center gap-1">
           <span className="text-gray-700 text-sm font-semibold">{product.stars.toFixed(1)}</span>
@@ -37,13 +34,16 @@ const ProductInfo = ({ product }) => {
         </div>
         <span className="text-sm text-gray-500">({product.rating} avaliações)</span>
       </div>
+
       <div className="flex items-baseline gap-2">
         <span className="text-2xl font-bold text-pink-600">{formatPrice(product.priceDiscount)}</span>
         {product.priceDiscount < product.price && (
           <del className="text-lg text-gray-400">{formatPrice(product.price)}</del>
         )}
       </div>
+
       <p className="text-gray-600 leading-relaxed my-4">{product.description}</p>
+
       {product.sizes && product.sizes[0] !== "Único" && product.sizes[0] !== "N/A" && (
         <div className="mt-3">
           <h3 className="text-sm font-semibold text-gray-800 mb-2">Tamanho</h3>
@@ -59,6 +59,7 @@ const ProductInfo = ({ product }) => {
           </div>
         </div>
       )}
+
       {product.colors && (
         <div className="mt-3">
           <h3 className="text-sm font-semibold text-gray-800 mb-3">Cor</h3>
@@ -75,12 +76,18 @@ const ProductInfo = ({ product }) => {
         </div>
       )}
 
+      {/* AJUSTE DE RESPONSIVIDADE NO BOTÃO:
+          - mx-auto: Centraliza horizontalmente no mobile.
+          - lg:mx-0: Remove a centralização automática em telas grandes (Desktop).
+          - w-full: Opcional, faz o botão ocupar a largura total no mobile para facilitar o clique.
+          - sm:w-72: Mantém o tamanho fixo de 72 (288px) a partir de tablets.
+      */}
       <button 
         onClick={handleToggleCart}
-        className={`w-72 font-bold py-2 rounded-lg mt-6 transition-colors shadow-md ${
+        className={`mx-auto lg:mx-0 w-full sm:w-72 font-bold py-3 rounded-lg mt-6 transition-colors shadow-md ${
           isProductInCart
-            ? 'bg-yellow-600 text-white' // Se ESTÁ no carrinho: cor escura, sem efeito hover
-            : 'bg-yellow-500 text-black hover:bg-yellow-600' // Se NÃO ESTÁ: cor clara COM o efeito hover
+            ? 'bg-yellow-600 text-white'
+            : 'bg-yellow-500 text-black hover:bg-yellow-600'
         }`}
       >
         {isProductInCart ? 'ADICIONADO AO CARRINHO' : 'ADICIONAR AO CARRINHO'}

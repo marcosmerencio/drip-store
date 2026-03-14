@@ -4,9 +4,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-[#111] text-white px-6 md:px-20 py-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
 
-        <div>
+        <div className="col-span-2 md:col-span-1">
           <img src={LogoFooter} alt="Drip Store Logo" className="h-8 mb-4" />
           <p className="text-sm text-gray-400 mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -41,7 +41,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="col-span-2 md:col-span-1">
           <h3 className="font-semibold mb-4">Contato</h3>
           <p className="text-sm text-gray-400 leading-relaxed">
             Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-xs text-gray-500">
-        © 2022 Digital College
+        © 2026 Digital College
       </div>
     </footer>
   );
