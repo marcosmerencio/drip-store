@@ -46,8 +46,7 @@ O projeto foi construído utilizando tecnologias modernas para garantir performa
 ## 📂 Estrutura de Arquivos
 A organização do projeto segue uma estrutura modular para facilitar a manutenção:
 
-
-<img width="792" height="269" alt="image" src="https://github.com/user-attachments/assets/9a4b9a4e-c2c8-4f2e-ab2b-d3a3fc0120c6" />
+<img width="797" height="270" alt="image" src="https://github.com/user-attachments/assets/bd7740b3-ae2e-4a9b-8f92-0ba392e388e7" />
 
 ## ⚙️ Como rodar localmente
 - **Pré-requisitos:** Node.js 18+ e npm.
