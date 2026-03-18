@@ -6,41 +6,41 @@
 Drip Store é um e-commerce de streetwear construído com React 19, Vite e Tailwind CSS, como trabalho de conclusão do curso de Desenvolvimento Fullstack da Geração Tech 3.0. Ele combina uma landing page promocional, catálogo filtrável, páginas de produto detalhadas, carrinho persistente e fluxo de autenticação, tudo amarrado por um layout composto por Header, Footer, CartDropdown e pelo CartContext, que concentra o estado de checkout.
 
 ## 🔗 Repositório e demonstração
-GitHub: https://github.com/marcosmerencio/drip-store
+- **GitHub:** https://github.com/marcosmerencio/drip-store
 
-Deploy (Vercel): https://drip-store-xi.vercel.app/
+- **Deploy (Vercel):** https://drip-store-xi.vercel.app/
 
 
 ## 🚀 Funcionalidades principais
-Home: Com hero, coleções e categorias que exibem produtos filtrados via useMemo e renderizados pelos componentes ProductListing e ProductCard.
+- **Home:** Com hero, coleções e categorias que exibem produtos filtrados via useMemo e renderizados pelos componentes ProductListing e ProductCard.
 
-Catálogo: Em /produtos com filtros por marca, categoria, gênero e condição, ordenação por preço e visualização em grade.
+- **Catálogo:** Em /produtos com filtros por marca, categoria, gênero e condição, ordenação por preço e visualização em grade.
 
-Páginas de produto: (/produto/:id) com breadcrumbs, galeria (ImageGallery), ficha técnica (ProductInfo) e sugestões.
+- **Páginas de produto:** (/produto/:id) com breadcrumbs, galeria (ImageGallery), ficha técnica (ProductInfo) e sugestões.
 
-Carrinho e pedidos: Com total descontado em 30%, resumo instantâneo no dropdown, modais de pagamento simulados e persistência via CartContext.
+- **Carrinho e pedidos:** Com total descontado em 30%, resumo instantâneo no dropdown, modais de pagamento simulados e persistência via CartContext.
 
-Autenticação simulada: Nas rotas de login e registro, utilizando Axios para envio de headers de autorização.
+- **Autenticação simulada:** Nas rotas de login e registro, utilizando Axios para envio de headers de autorização.
 
-Navegação: Coordenada por React Router 7 com layouts aninhados e hooks para performance e responsividade.
+- **Navegação:** Coordenada por React Router 7 com layouts aninhados e hooks para performance e responsividade.
 
 
 ## 🛠️ Tecnologias Utilizadas
 O projeto foi construído utilizando tecnologias modernas para garantir performance e escalabilidade:
 
-React 19 + React Router 7: Camada de componentes, estados e navegação com rotas aninhadas, incluindo o provedor CartContext.
+- **React 19 + React Router 7:** Camada de componentes, estados e navegação com rotas aninhadas, incluindo o provedor CartContext.
 
-Vite: Bundler e servidor de desenvolvimento com HMR (Hot Module Replacement) para builds otimizados.
+- **Vite:** Bundler e servidor de desenvolvimento com HMR (Hot Module Replacement) para builds otimizados.
 
-Tailwind CSS 4.2: Framework utilitário utilizado com @tailwindcss/vite para estilização responsiva e design system.
+- **Tailwind CSS 4.2:** Framework utilitário utilizado com @tailwindcss/vite para estilização responsiva e design system.
 
-Axios: Cliente HTTP centralizado em src/services/api.js para comunicação com serviços e gerenciamento de tokens.
+- **Axios:** Cliente HTTP centralizado em src/services/api.js para comunicação com serviços e gerenciamento de tokens.
 
-Lucide React + React Icons: Biblioteca de ícones reutilizáveis para interfaces de filtros e menus.
+- **Lucide React + React Icons:** Biblioteca de ícones reutilizáveis para interfaces de filtros e menus.
 
-LocalStorage: Utilizado para a persistência de dados do carrinho (cartItems) e tokens de autenticação (authToken).
+- **LocalStorage:** Utilizado para a persistência de dados do carrinho (cartItems) e tokens de autenticação (authToken).
 
-ESLint: Regras e plugins para manter a padronização e segurança durante o desenvolvimento.
+- **ESLint:** Regras e plugins para manter a padronização e segurança durante o desenvolvimento.
 
 
 ## 📂 Estrutura de Arquivos
@@ -60,44 +60,44 @@ drip-store
 
 
 ## ⚙️ Como rodar localmente
-Pré-requisitos: Node.js 18+ e npm.
+- **Pré-requisitos:** Node.js 18+ e npm.
 
-Clone o repositório:
+- **Clone o repositório:**
 
 Bash
 git clone https://github.com/marcosmerencio/drip-store.git
 cd drip-store
-Instale as dependências:
+- **Instale as dependências:**
 
 Bash
 npm install
-Inicie o desenvolvimento:
+- **Inicie o desenvolvimento:**
 
 Bash
 npm run dev
 
 
 ## 📈 Próximos passos sugeridos
-Conectar src/services/api.js a uma API real para produtos e autenticação.
+- Conectar src/services/api.js a uma API real para produtos e autenticação.
 
-Adicionar testes automatizados para componentes críticos.
+- Adicionar testes automatizados para componentes críticos.
 
-Elevar acessibilidade (navegação por teclado, foco, aria-*).
+- Elevar acessibilidade (navegação por teclado, foco, aria-*).
 
-Otimizar performance visual com lazy loading e prefetch de imagens.
+- Otimizar performance visual com lazy loading e prefetch de imagens.
 
 
 ## 🙏 Agradecimentos
-A Deus pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
+- A **Deus** pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
 
-Ao professor Luan Oliveira pela excelente didática e acompanhamento constante durante todo o curso.
+Ao professor **Luan Oliveira** pela excelente didática e acompanhamento constante durante todo o curso.
 
-À monitora Nazaré Almeida pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento desse projeto.
+À monitora **Nazaré Almeida** pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento desse projeto.
 
 
 ## ✒️ Autor
-Marcos Merencio — Desenvolvedor Fullstack em formação.
+**Marcos Merencio** — Desenvolvedor Fullstack em formação.
 
 
 ## 📄 Licença
-Este projeto está sob a licença MIT. O uso, cópia e distribuição são permitidos livremente para fins de estudo e aprendizagem.
+O uso, cópia e distribuição desse projeto são permitidos livremente para fins de estudo e aprendizagem.
