@@ -50,18 +50,24 @@ A organização do projeto segue uma estrutura modular para facilitar a manuten�
 <img width="797" height="270" alt="image" src="https://github.com/user-attachments/assets/bd7740b3-ae2e-4a9b-8f92-0ba392e388e7" />
 
 ## ⚙️ Como rodar localmente
-- **Pré-requisitos:** Node.js 18+ e npm.
+### Pré-requisitos:
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- **Node.js** (https://nodejs.org/en/) - Versão 18 ou superior
+- **npm** (https://www.npmjs.com/) - Geralmente instalado junto com o Node
+  
+> Para verificar se você já os possui, digite no terminal: `node -v` e `npm -v`.
 
-- **Clone o repositório:**
+### Passo a Passo:
+1. **Clone o repositório:**
 
 Bash
 git clone https://github.com/marcosmerencio/drip-store.git
 cd drip-store
-- **Instale as dependências:**
+2. **Instale as dependências:**
 
 Bash
 npm install
-- **Inicie o desenvolvimento:**
+3. **Inicie o servidor de desenvolvimento:**
 
 Bash
 npm run dev
