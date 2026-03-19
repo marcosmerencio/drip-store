@@ -55,7 +55,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - **Node.js** (https://nodejs.org/en/) - Versão 18 ou superior
 - **npm** (https://www.npmjs.com/) - Geralmente instalado junto com o Node
   
-> Para verificar se você já os possui, digite no terminal: `node -v` e `npm -v`.
+> Para verificar se você já os possui, digite no terminal: `node -v` e `npm -v`. Caso não estejam instalados, utilize os links citados anteriormente para baixá-los e faça a instalação.
 
 ### Passo a Passo:
 1. **Clone o repositório:**
