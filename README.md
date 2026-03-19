@@ -63,10 +63,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Bash
 git clone https://github.com/marcosmerencio/drip-store.git
 cd drip-store
+
 2. **Instale as dependências:**
 
 Bash
 npm install
+
 3. **Inicie o servidor de desenvolvimento:**
 
 Bash
