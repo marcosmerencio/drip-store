@@ -98,4 +98,4 @@ npm run dev
 
 
 ## 📄 Licença
-O uso, cópia e distribuição desse projeto são permitidos livremente para fins de estudo e aprendizagem.
+O uso, cópia e distribuição desse projeto são **permitidos livremente para fins de estudo e aprendizagem**.
