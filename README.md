@@ -4,7 +4,7 @@
 
 
 ## 📝 Descrição
-Drip Store é um e-commerce de streetwear construído com React 19, Vite e Tailwind CSS, como trabalho de conclusão do curso de Desenvolvimento Fullstack da Geração Tech 3.0. Ele combina uma landing page promocional, catálogo filtrável, páginas de produto detalhadas, carrinho persistente e fluxo de autenticação, tudo amarrado por um layout composto por Header, Footer, CartDropdown e pelo CartContext, que concentra o estado de checkout.
+Drip Store é um e-commerce de streetwear construído com React 19, Vite e Tailwind CSS, como trabalho de conclusão do curso de Desenvolvimento Fullstack da Geração Tech 3.0. Ele combina um site promocional, catálogo filtrável, páginas de produto detalhadas, carrinho persistente e fluxo de autenticação, tudo amarrado por um layout composto por Header, Footer, CartDropdown e pelo CartContext, que concentra o estado de checkout.
 
 ## 🔗 Repositório e demonstração
 - **GitHub:** https://github.com/marcosmerencio/drip-store
