@@ -58,15 +58,23 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 > Para verificar se você já os possui, digite no terminal: `node -v` e `npm -v`. Caso não estejam instalados, utilize os links citados anteriormente para baixá-los e faça a instalação.
 
 ### Passo a Passo:
-(Os comandos abaixo devem ser utilizados no terminal Git Bash)
+(Os comandos abaixo devem seu itulizados no terminal Git Bash)
 
-**1. Clone o repositório:** git clone https://github.com/marcosmerencio/drip-store.git
+**1. Clone o repositório:**
 
-**2. Acesse a pasta do projeto:** cd drip-store
+git clone https://github.com/marcosmerencio/drip-store.git
 
-**3. Instale as dependências:** npm install
+**2. Acesse a pasta do projeto:**
 
-**4. Inicie o servidor de desenvolvimento:** npm run dev
+cd drip-store
+
+**3. Instale as dependências:**
+
+npm install
+
+**4. Inicie o servidor de desenvolvimento:**
+
+npm run dev
 
 
 ## 📈 Próximos passos sugeridos
