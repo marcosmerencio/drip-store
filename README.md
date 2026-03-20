@@ -61,15 +61,19 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 (Os comandos abaixo devem ser utilizados no terminal Git Bash)
 
 **1. Clone o repositório:** 
+
 git clone https://github.com/marcosmerencio/drip-store.git
 
 **2. Acesse a pasta do projeto:** 
+
 cd drip-store
 
 **3. Instale as dependências:** 
+
 npm install
 
 **4. Inicie o servidor de desenvolvimento:** 
+
 npm run dev
 
 
