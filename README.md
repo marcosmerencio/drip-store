@@ -46,8 +46,20 @@ O projeto foi construído utilizando tecnologias modernas para garantir performa
 
 ## 📂 Estrutura de Arquivos
 A organização do projeto segue uma estrutura modular para facilitar a manutenção:
+```Plaintext
+drip-store
+├── public/                 # Ativos estáticos (banners, logos e ícones)
+├── src/                    # Código-fonte principal
+│   ├── assets/             # Imagens e recursos visuais locais
+│   ├── components/         # Componentes reutilizáveis de interface
+│   ├── contexts/           # Gerenciamento de estado global (cartContext.jsx)
+│   ├── data/               # Mock de catálogo de produtos (products.js)
+│   ├── pages/              # Telas principais da aplicação e layouts
+│   └── services/           # Configuração de API (Axios)
+├── index.html              # Ponto de entrada da aplicação
+└── package.json            # Manifesto do projeto e dependências
+```
 
-<img width="797" height="270" alt="image" src="https://github.com/user-attachments/assets/bd7740b3-ae2e-4a9b-8f92-0ba392e388e7" />
 
 ## ⚙️ Como rodar localmente
 ### Pré-requisitos:
