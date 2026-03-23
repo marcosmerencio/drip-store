@@ -61,21 +61,21 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 (Os comandos abaixo devem ser utilizados no terminal Git Bash)
 
 **1. Clone o repositório:** 
-
+```Bash
 git clone https://github.com/marcosmerencio/drip-store.git
-
+```
 **2. Acesse a pasta do projeto:** 
-
+```Bash
 cd drip-store
-
+```
 **3. Instale as dependências:** 
-
+```Bash
 npm install
-
+```
 **4. Inicie o servidor de desenvolvimento:** 
-
+```Bash
 npm run dev
-
+```
 
 ## 📈 Próximos passos sugeridos
 - Conectar src/services/api.js a uma API real para produtos e autenticação.
