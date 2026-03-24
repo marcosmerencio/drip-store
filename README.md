@@ -102,9 +102,9 @@ npm run dev
 ## 🙏 Agradecimentos
 - A **Deus** pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
 
-- Ao professor **Luan Oliveira** pela excelente didática e acompanhamento constante durante todo o curso.
+- Ao professor Luan Oliveira pela excelente didática e acompanhamento constante durante todo o curso.
 
-- À monitora **Nazaré Almeida** pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento desse projeto.
+- À monitora Nazaré Almeida, pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento deste projeto.
 
 
 ## ✒️ Autor
@@ -112,4 +112,4 @@ npm run dev
 
 
 ## 📄 Licença
-O uso, cópia e distribuição desse projeto são **permitidos livremente para fins de estudo e aprendizagem**.
+O **uso, cópia e distribuição** desse projeto são **permitidos livremente para fins de estudo e aprendizagem**.
