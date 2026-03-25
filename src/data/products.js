@@ -9,11 +9,11 @@ export const products = [
     price: 299.99,
     priceDiscount: 209.99,
     description: "Tênis Nike confortável e estiloso.",
-    image: "https://images-na.ssl-images-amazon.com/images/I/717fbeslx0L._AC_SR462,693_.jpg",
+    image: "../../public/nike_air_max_270.jpg",
     images: [
-      { src: "https://imgnike-a.akamaihd.net/360x360/0163497WA1.jpg" },
-      { src: "https://imgnike-a.akamaihd.net/360x360/0163497WA1_1.jpg" },
-      { src: "https://imgnike-a.akamaihd.net/360x360/0163497WA1_2.jpg" }
+      { src: "../../public/nike_air_max_270_1.jpg"},
+      { src: "../../public/nike_air_max_270_2.jpg"},
+      { src: "../../public/nike_air_max_270_3.jpg"}
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -33,11 +33,11 @@ export const products = [
     price: 349.99,
     priceDiscount: 249.99,
     description: "Tênis Adidas com tecnologia de amortecimento.",
-    image: "https://authenticfeet.vtexassets.com/arquivos/ids/434723-800-800?v=638562278565370000&width=800&height=800&aspect=true",
+    image: "../../public/adidas_ultraboost.jpg",
     images: [
-      { src: "https://imgadidas-a.akamaihd.net/360x360/0163498WA1.jpg" },
-      { src: "https://imgadidas-a.akamaihd.net/360x360/0163498WA1_1.jpg" },
-      { src: "https://imgadidas-a.akamaihd.net/360x360/0163498WA1_2.jpg" }
+      { src: "../../public/adidas_ultraboost_1.jpg"},
+      { src: "../../public/adidas_ultraboost_2.jpg"},
+      { src: "../../public/adidas_ultraboost_3.jpg"}
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -57,11 +57,11 @@ export const products = [
     price: 279.99,
     priceDiscount: 199.99,
     description: "Tênis Puma com design retrô e conforto.",
-    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/394302/51/sv01/fnd/BRA/w/1000/h/1000/fmt/png",
+    image: "../../public/puma_rs-x.jpg",
     images: [
-      { src: "https://imgpuma-a.akamaihd.net/360x360/0163499WA1.jpg" },
-      { src: "https://imgpuma-a.akamaihd.net/360x360/0163499WA1_1.jpg" },
-      { src: "https://imgpuma-a.akamaihd.net/360x360/0163499WA1_2.jpg" }
+      { src: "../../public/puma_rs-x_1.jpg" },
+      { src: "../../public/puma_rs-x_2.jpg" },
+      { src: "../../public/puma_rs-x_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -81,11 +81,11 @@ export const products = [
     price: 249.99,
     priceDiscount: 179.99,
     description: "Tênis New Balance clássico e versátil.",
-    image: "https://cdn.bnws3.com.br/b2online.com.br/image/cache/data/produtos/new-balance/masculino/tenis-new-balance-574-v2-masculino-vinho---cinza-8784-24-01-24-00-1200x1200.jpg",
+    image: "../../public/new_balance_574.jpg",
     images: [
-      { src: "https://imgnewbalance-a.akamaihd.net/360x360/0163500WA1.jpg" },
-      { src: "https://imgnewbalance-a.akamaihd.net/360x360/0163500WA1_1.jpg" },
-      { src: "https://imgnewbalance-a.akamaihd.net/360x360/0163500WA1_2.jpg" }
+      { src: "../../public/new_balance_574_1.jpg" },
+      { src: "../../public/new_balance_574_2.jpg" },
+      { src: "../../public/new_balance_574_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -105,18 +105,18 @@ export const products = [
     price: 399.99,
     priceDiscount: 299.99,
     description: "Tênis Asics com suporte e estabilidade.",
-    image: "https://asicsbr.vteximg.com.br/arquivos/ids/2744214-1000-1000/null.jpg",
+    image: "../../public/asics_gel-kayano.jpg",
     images: [
-      { src: "https://imgasics-a.akamaihd.net/360x360/0163501WA1.jpg" },
-      { src: "https://imgasics-a.akamaihd.net/360x360/0163501WA1_1.jpg" },
-      { src: "https://imgasics-a.akamaihd.net/360x360/0163501WA1_2.jpg" }
+      { src: "../../public/asics_gel-kayano_1.jpg" },
+      { src: "../../public/asics_gel-kayano_2.jpg" },
+      { src: "../../public/asics_gel-kayano_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
     condition: "Novo",
     brand: "Asics",
     sizes: [37, 39, 41, 43],
-    colors: ["#264653", "#e76f51"],
+    colors: ["#264653", "#000000"],
     relatedProducts: [4, 6]
   },
   {
@@ -129,11 +129,11 @@ export const products = [
     price: 229.99,
     priceDiscount: 169.99,
     description: "Tênis Reebok com design atemporal.",
-    image: "https://static.hupishop.com.br/public/hupibikes/imagens/produtos/tenis-reebok-classic-nylon-bege-feminino-667d9a2cdd458.jpg",
+    image: "../../public/reebok_classic_leather.jpg",
     images: [
-      { src: "https://imgreebok-a.akamaihd.net/360x360/0163502WA1.jpg" },
-      { src: "https://imgreebok-a.akamaihd.net/360x360/0163502WA1_1.jpg" },
-      { src: "https://imgreebok-a.akamaihd.net/360x360/0163502WA1_2.jpg" }
+      { src: "../../public/reebok_classic_leather_1.jpg" },
+      { src: "../../public/reebok_classic_leather_2.jpg" },
+      { src: "../../public/reebok_classic_leather_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -153,11 +153,11 @@ export const products = [
     price: 199.99,
     priceDiscount: 149.99,
     description: "Tênis Vans com estilo skater clássico.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBJ4a69-eDi4bOCihhjxFyiC9WWKC9krq3A&s",
+    image: "../../public/vans_old_skool.jpg",
     images: [
-      { src: "https://imgvans-a.akamaihd.net/360x360/0163503WA1.jpg" },
-      { src: "https://imgvans-a.akamaihd.net/360x360/0163503WA1_1.jpg" },
-      { src: "https://imgvans-a.akamaihd.net/360x360/0163503WA1_2.jpg" }
+      { src: "../../public/vans_old_skool_1.jpg" },
+      { src: "../../public/vans_old_skool_2.jpg" },
+      { src: "../../public/vans_old_skool_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -177,11 +177,11 @@ export const products = [
     price: 179.99,
     priceDiscount: 139.99,
     description: "Tênis Converse icônico e versátil.",
-    image: "https://cloviscalcados.vteximg.com.br/arquivos/ids/1036233-1024-1024/Tenis-Masculino-Chuck-Taylor-Converse-All-Star-CT00040007-0320004_001-02.jpg?v=638364710577700000",
+    image: "../../public/converse_chuck_taylor.jpg",
     images: [
-      { src: "https://imgconverse-a.akamaihd.net/360x360/0163504WA1.jpg" },
-      { src: "https://imgconverse-a.akamaihd.net/360x360/0163504WA1_1.jpg" },
-      { src: "https://imgconverse-a.akamaihd.net/360x360/0163504WA1_2.jpg" }
+      { src: "../../public/converse_chuck_taylor_1.jpg" },
+      { src: "../../public/converse_chuck_taylor_2.jpg" },
+      { src: "../../public/converse_chuck_taylor_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -201,11 +201,11 @@ export const products = [
     price: 179.99,
     priceDiscount: 29.99,
     description: "Camiseta preta de algodão com estampa clássica da capa do álbum 'Unknown Pleasures' da banda Joy Division.",
-    image: "https://stamp.jetassets.com.br/produto/TS1722_2024-09-19_14_33_09_0.jpeg",
+    image: "../../public/camisa_joy_division.jpg",
     images: [
-        { src: "https://stamp.jetassets.com.br/produto/TS1722_2024-09-19_14_33_09_0.jpeg" },
-        { src: "https://exemplo.com/camisa_costas.jpg" },
-        { src: "https://exemplo.com/camisa_detalhe.jpg" }
+      { src: "../../public/camisa_joy_division_1.jpg" },
+      { src: "../../public/camisa_joy_division_2.jpg" },
+      { src: "../../public/camisa_joy_division_3.jpg" }
     ],
     category: "Camisetas",
     gender: "Unissex",
@@ -225,11 +225,11 @@ export const products = [
     price: 400.00,
     priceDiscount: 349.99,
     description: "Calça jeans estilo 'mom' com cintura alta, modelagem reta e lavagem clara. Perfeita para um look casual e confortável.",
-    image: "https://oqvestir.fbitsstatic.net/img/p/calca-feminina-mom-jeans-azul-178657/463134.jpg?w=1600&h=2133&v=202501231556",
+    image: "../../public/calca_mom_jeans.jpg",
     images: [
-        { src: "https://oqvestir.fbitsstatic.net/img/p/calca-feminina-mom-jeans-azul-178657/463134.jpg?w=1600&h=2133&v=202501231556" },
-        { src: "https://exemplo.com/calca_costas.jpg" },
-        { src: "https://exemplo.com/calca_detalhe.jpg" }
+      { src: "../../public/calca_mom_jeans_1.jpg" },
+      { src: "../../public/calca_mom_jeans_2.jpg" },
+      { src: "../../public/calca_mom_jeans_3.jpg" }
     ],
     category: "Calças",
     gender: "Feminino",
@@ -241,26 +241,26 @@ export const products = [
   },
   {
     id: 11,
-    title: "Boné MST",
-    name: "Boné MST",
-    reference: "Ref. MST-BONE-BR",
+    title: "Boné Nike",
+    name: "Boné Nike",
+    reference: "Ref. Nike-BONE-BR",
     stars: 4.8,
     rating: 350,
     price: 89.90,
     priceDiscount: 69.90,
-    description: "Boné de brim vermelho com 6 gomos, fecho ajustável e logo clássico bordado na frente. Um símbolo de luta e estilo.",
-    image: "https://http2.mlstatic.com/D_NQ_NP_662323-MLB78900818559_092024-O-bone-mst-brim-6-gomos-adulto.webp",
+    description: "Boné Nike Club vem em sarja de algodão suave que tem uma lavagem macia para fácil conforto desde o primeiro day.",
+    image: "../../public/bone_nike.jpg",
     images: [
-        { src: "https://http2.mlstatic.com/D_NQ_NP_662323-MLB78900818559_092024-O-bone-mst-brim-6-gomos-adulto.webp" },
-        { src: "https://exemplo.com/bone_lado.jpg" },
-        { src: "https://exemplo.com/bone_tras.jpg" }
+        { src: "../../public/bone_nike_1.jpg" },
+        { src: "../../public/bone_nike_2.jpg" },
+        { src: "../../public/bone_nike_3.jpg" }
     ],
     category: "Bonés",
     gender: "Unissex",
     condition: "Novo",
-    brand: "MST",
+    brand: "Nike",
     sizes: ["Único"],
-    colors: ["#d62828"],
+    colors: ["#000000", "#ffffff", "#8F8E93"],
     relatedProducts: [9, 12]
   },
   {
@@ -273,11 +273,11 @@ export const products = [
     price: 299.00,
     priceDiscount: 249.00,
     description: "Headphone on-ear sem fio JBL Tune 520BT com tecnologia Bluetooth 5.3, som JBL Pure Bass e bateria de longa duração.",
-    image: "https://m.media-amazon.com/images/I/61BDf8KO8AL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    image: "../../public/headphone_jbl.jpg",
     images: [
-        { src: "https://m.media-amazon.com/images/I/61BDf8KO8AL.__AC_SX300_SY300_QL70_ML2_.jpg" },
-        { src: "https://exemplo.com/headphone_lado.jpg" },
-        { src: "https://exemplo.com/headphone_dobrado.jpg" }
+      { src: "../../public/headphone_jbl_1.jpg" },
+      { src: "../../public/headphone_jbl_2.jpg" },
+      { src: "../../public/headphone_jbl_3.jpg" }
     ],
     category: "Headphones",
     gender: "Unissex",
