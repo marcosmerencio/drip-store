@@ -33,11 +33,11 @@ export const products = [
     price: 349.99,
     priceDiscount: 249.99,
     description: "Tênis Adidas com tecnologia de amortecimento.",
-    image: "../../public/adidas_ultraboost.jpg",
+    image: "/adidas_ultraboost.jpg",
     images: [
-      { src: "../../public/adidas_ultraboost_1.jpg"},
-      { src: "../../public/adidas_ultraboost_2.jpg"},
-      { src: "../../public/adidas_ultraboost_3.jpg"}
+      { src: "/adidas_ultraboost_1.jpg"},
+      { src: "/adidas_ultraboost_2.jpg"},
+      { src: "/adidas_ultraboost_3.jpg"}
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -57,11 +57,11 @@ export const products = [
     price: 279.99,
     priceDiscount: 199.99,
     description: "Tênis Puma com design retrô e conforto.",
-    image: "../../public/puma_rs-x.jpg",
+    image: "/puma_rs-x.jpg",
     images: [
-      { src: "../../public/puma_rs-x_1.jpg" },
-      { src: "../../public/puma_rs-x_2.jpg" },
-      { src: "../../public/puma_rs-x_3.jpg" }
+      { src: "/puma_rs-x_1.jpg" },
+      { src: "/puma_rs-x_2.jpg" },
+      { src: "/puma_rs-x_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -81,11 +81,11 @@ export const products = [
     price: 249.99,
     priceDiscount: 179.99,
     description: "Tênis New Balance clássico e versátil.",
-    image: "../../public/new_balance_574.jpg",
+    image: "/new_balance_574.jpg",
     images: [
-      { src: "../../public/new_balance_574_1.jpg" },
-      { src: "../../public/new_balance_574_2.jpg" },
-      { src: "../../public/new_balance_574_3.jpg" }
+      { src: "/new_balance_574_1.jpg" },
+      { src: "/new_balance_574_2.jpg" },
+      { src: "/new_balance_574_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -105,11 +105,11 @@ export const products = [
     price: 399.99,
     priceDiscount: 299.99,
     description: "Tênis Asics com suporte e estabilidade.",
-    image: "../../public/asics_gel-kayano.jpg",
+    image: "/asics_gel-kayano.jpg",
     images: [
-      { src: "../../public/asics_gel-kayano_1.jpg" },
-      { src: "../../public/asics_gel-kayano_2.jpg" },
-      { src: "../../public/asics_gel-kayano_3.jpg" }
+      { src: "/asics_gel-kayano_1.jpg" },
+      { src: "/asics_gel-kayano_2.jpg" },
+      { src: "/asics_gel-kayano_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -129,11 +129,11 @@ export const products = [
     price: 229.99,
     priceDiscount: 169.99,
     description: "Tênis Reebok com design atemporal.",
-    image: "../../public/reebok_classic_leather.jpg",
+    image: "/reebok_classic_leather.jpg",
     images: [
-      { src: "../../public/reebok_classic_leather_1.jpg" },
-      { src: "../../public/reebok_classic_leather_2.jpg" },
-      { src: "../../public/reebok_classic_leather_3.jpg" }
+      { src: "/reebok_classic_leather_1.jpg" },
+      { src: "/reebok_classic_leather_2.jpg" },
+      { src: "/reebok_classic_leather_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -153,11 +153,11 @@ export const products = [
     price: 199.99,
     priceDiscount: 149.99,
     description: "Tênis Vans com estilo skater clássico.",
-    image: "../../public/vans_old_skool.jpg",
+    image: "/vans_old_skool.jpg",
     images: [
-      { src: "../../public/vans_old_skool_1.jpg" },
-      { src: "../../public/vans_old_skool_2.jpg" },
-      { src: "../../public/vans_old_skool_3.jpg" }
+      { src: "/vans_old_skool_1.jpg" },
+      { src: "/vans_old_skool_2.jpg" },
+      { src: "/vans_old_skool_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -177,11 +177,11 @@ export const products = [
     price: 179.99,
     priceDiscount: 139.99,
     description: "Tênis Converse icônico e versátil.",
-    image: "../../public/converse_chuck_taylor.jpg",
+    image: "/converse_chuck_taylor.jpg",
     images: [
-      { src: "../../public/converse_chuck_taylor_1.jpg" },
-      { src: "../../public/converse_chuck_taylor_2.jpg" },
-      { src: "../../public/converse_chuck_taylor_3.jpg" }
+      { src: "/converse_chuck_taylor_1.jpg" },
+      { src: "/converse_chuck_taylor_2.jpg" },
+      { src: "/converse_chuck_taylor_3.jpg" }
     ],
     category: "Tênis",
     gender: "Unissex",
@@ -201,11 +201,11 @@ export const products = [
     price: 179.99,
     priceDiscount: 29.99,
     description: "Camiseta preta de algodão com estampa clássica da capa do álbum 'Unknown Pleasures' da banda Joy Division.",
-    image: "../../public/camisa_joy_division.jpg",
+    image: "/camisa_joy_division.jpg",
     images: [
-      { src: "../../public/camisa_joy_division_1.jpg" },
-      { src: "../../public/camisa_joy_division_2.jpg" },
-      { src: "../../public/camisa_joy_division_3.jpg" }
+      { src: "/camisa_joy_division_1.jpg" },
+      { src: "/camisa_joy_division_2.jpg" },
+      { src: "/camisa_joy_division_3.jpg" }
     ],
     category: "Camisetas",
     gender: "Unissex",
@@ -225,11 +225,11 @@ export const products = [
     price: 400.00,
     priceDiscount: 349.99,
     description: "Calça jeans estilo 'mom' com cintura alta, modelagem reta e lavagem clara. Perfeita para um look casual e confortável.",
-    image: "../../public/calca_mom_jeans.jpg",
+    image: "/calca_mom_jeans.jpg",
     images: [
-      { src: "../../public/calca_mom_jeans_1.jpg" },
-      { src: "../../public/calca_mom_jeans_2.jpg" },
-      { src: "../../public/calca_mom_jeans_3.jpg" }
+      { src: "/calca_mom_jeans_1.jpg" },
+      { src: "/calca_mom_jeans_2.jpg" },
+      { src: "/calca_mom_jeans_3.jpg" }
     ],
     category: "Calças",
     gender: "Feminino",
@@ -249,11 +249,11 @@ export const products = [
     price: 89.90,
     priceDiscount: 69.90,
     description: "Boné Nike Club vem em sarja de algodão suave que tem uma lavagem macia para fácil conforto desde o primeiro day.",
-    image: "../../public/bone_nike.jpg",
+    image: "/bone_nike.jpg",
     images: [
-        { src: "../../public/bone_nike_1.jpg" },
-        { src: "../../public/bone_nike_2.jpg" },
-        { src: "../../public/bone_nike_3.jpg" }
+        { src: "/bone_nike_1.jpg" },
+        { src: "/bone_nike_2.jpg" },
+        { src: "/bone_nike_3.jpg" }
     ],
     category: "Bonés",
     gender: "Unissex",
@@ -273,11 +273,11 @@ export const products = [
     price: 299.00,
     priceDiscount: 249.00,
     description: "Headphone on-ear sem fio JBL Tune 520BT com tecnologia Bluetooth 5.3, som JBL Pure Bass e bateria de longa duração.",
-    image: "../../public/headphone_jbl.jpg",
+    image: "/headphone_jbl.jpg",
     images: [
-      { src: "../../public/headphone_jbl_1.jpg" },
-      { src: "../../public/headphone_jbl_2.jpg" },
-      { src: "../../public/headphone_jbl_3.jpg" }
+      { src: "/headphone_jbl_1.jpg" },
+      { src: "/headphone_jbl_2.jpg" },
+      { src: "/headphone_jbl_3.jpg" }
     ],
     category: "Headphones",
     gender: "Unissex",

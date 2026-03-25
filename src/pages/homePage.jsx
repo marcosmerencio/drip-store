@@ -19,17 +19,17 @@ const categoryIcons = [
 
 const productsData = [
   { id: 1, name: "Nike Air Max 270", image: "/nike_air_max_270.jpg", price: 200, priceDiscount: 149.9, category: "Tênis" },
-  { id: 2, name: "Adidas Ultraboost", image: "../../public/adidas_ultraboost.jpg", price: 200, category: "Tênis", priceDiscount: 180 },
-  { id: 3, name: "Puma RS-X", image: "../../public/puma_rs-x.jpg", price: 99.9, category: "Tênis", priceDiscount: 89.9 },
-  { id: 4, name: "New Balance 574", image: "../../public/new_balance_574.jpg", price: 150, category: "Tênis", priceDiscount: 120 },
-  { id: 5, name: "Asics Gel-Kayano", image: "../../public/asics_gel-kayano.jpg", price: 75, category: "Tênis" },
-  { id: 6, name: "Reebok Classic Leather", image: "../../public/reebok_classic_leather.jpg", price: 30, category: "Tênis" },
-  { id: 7, name: "Vans Old Skool", image: "../../public/vans_old_skool.jpg", price: 200, priceDiscount: 180, category: "Tênis" },
-  { id: 8, name: "Converse Chuck Taylor", image: "../../public/converse_chuck_taylor.jpg", price: 250, category: "Tênis" },
-  { id: 9, name: "Camisa Joy Division", image: "../../public/camisa_joy_division.jpg", price: 100, category: "Camisetas" },
-  { id: 10, name: "Calça Mom Jeans", image: "../../public/calca_mom_jeans.jpg", price: 400, category: "Calças" },
-  { id: 11, name: "Boné Nike", image: "../../public/bone_nike.jpg", price: 200, category: "Bonés" },
-  { id: 12, name: "Headphone JBL", image: "../../public/headphone_jbl.jpg", price: 299, category: "Headphones" },
+  { id: 2, name: "Adidas Ultraboost", image: "/adidas_ultraboost.jpg", price: 200, category: "Tênis", priceDiscount: 180 },
+  { id: 3, name: "Puma RS-X", image: "/puma_rs-x.jpg", price: 99.9, category: "Tênis", priceDiscount: 89.9 },
+  { id: 4, name: "New Balance 574", image: "/new_balance_574.jpg", price: 150, category: "Tênis", priceDiscount: 120 },
+  { id: 5, name: "Asics Gel-Kayano", image: "/asics_gel-kayano.jpg", price: 75, category: "Tênis" },
+  { id: 6, name: "Reebok Classic Leather", image: "/reebok_classic_leather.jpg", price: 30, category: "Tênis" },
+  { id: 7, name: "Vans Old Skool", image: "/vans_old_skool.jpg", price: 200, priceDiscount: 180, category: "Tênis" },
+  { id: 8, name: "Converse Chuck Taylor", image: "/converse_chuck_taylor.jpg", price: 250, category: "Tênis" },
+  { id: 9, name: "Camisa Joy Division", image: "/camisa_joy_division.jpg", price: 100, category: "Camisetas" },
+  { id: 10, name: "Calça Mom Jeans", image: "/calca_mom_jeans.jpg", price: 400, category: "Calças" },
+  { id: 11, name: "Boné Nike", image: "/bone_nike.jpg", price: 200, category: "Bonés" },
+  { id: 12, name: "Headphone JBL", image: "/headphone_jbl.jpg", price: 299, category: "Headphones" },
 ];
 
 const HomePage = () => {
