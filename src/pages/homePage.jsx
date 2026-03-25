@@ -18,7 +18,7 @@ const categoryIcons = [
 ];
 
 const productsData = [
-  { id: 1, name: "Nike Air Max 270", image: "../../public/nike_air_max_270.jpg", price: 200, priceDiscount: 149.9, category: "Tênis" },
+  { id: 1, name: "Nike Air Max 270", image: "/nike_air_max_270.jpg", price: 200, priceDiscount: 149.9, category: "Tênis" },
   { id: 2, name: "Adidas Ultraboost", image: "../../public/adidas_ultraboost.jpg", price: 200, category: "Tênis", priceDiscount: 180 },
   { id: 3, name: "Puma RS-X", image: "../../public/puma_rs-x.jpg", price: 99.9, category: "Tênis", priceDiscount: 89.9 },
   { id: 4, name: "New Balance 574", image: "../../public/new_balance_574.jpg", price: 150, category: "Tênis", priceDiscount: 120 },

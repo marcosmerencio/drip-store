@@ -9,11 +9,11 @@ export const products = [
     price: 299.99,
     priceDiscount: 209.99,
     description: "Tênis Nike confortável e estiloso.",
-    image: "../../public/nike_air_max_270.jpg",
+    image: "/nike_air_max_270.jpg",
     images: [
-      { src: "../../public/nike_air_max_270_1.jpg"},
-      { src: "../../public/nike_air_max_270_2.jpg"},
-      { src: "../../public/nike_air_max_270_3.jpg"}
+      { src: "/nike_air_max_270_1.jpg"},
+      { src: "/nike_air_max_270_2.jpg"},
+      { src: "/nike_air_max_270_3.jpg"}
     ],
     category: "Tênis",
     gender: "Unissex",
