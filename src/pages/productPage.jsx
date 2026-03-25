@@ -22,9 +22,9 @@ const location = useLocation();
   });
 
   const allFilters = [
-    { label: 'Marca', options: ['Adidas', 'Balenciaga', 'K-Swiss', 'Nike', 'Puma', 'Stamp', 'OQVestir', 'JBL', 'MST'] },
+    { label: 'Marca', options: ['Adidas', 'Balenciaga', 'K-Swiss', 'Nike', 'Puma', 'Stamp', 'OQVestir', 'JBL'] },
     { label: 'Categoria', options: ['Camisetas', 'Calças', 'Bonés', 'Headphones', 'Tênis'] },
-    { label: 'Gênero', options: ['Masculino', 'Feminino', 'Unisex'] },
+    { label: 'Gênero', options: ['Masculino', 'Feminino', 'Unissex'] },
     { label: 'Estado', options: ['Novo', 'Usado'] },
   ];
 

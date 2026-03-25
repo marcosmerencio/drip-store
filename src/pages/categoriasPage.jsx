@@ -3,23 +3,23 @@ import { useNavigate } from 'react-router-dom';
 const categorias = [
   {
     nome: 'Camisetas',
-    imagem: 'https://images.mont.ink/mockups/51173/Marrom_3697018.png',
+    imagem: '/camisa_categoria.jpg',
   },
   {
     nome: 'Calças',
-    imagem: 'https://imageswscdn.wslojas.com.br/files/24465/MED_produto-calca-cargo-jeans-fire-apparel-design-azul-2350.jpg',
+    imagem: '/calca_categoria.jpg',
   },
   {
     nome: 'Bonés',
-    imagem: 'https://images.tcdn.com.br/img/img_prod/1150285/bone_mst_281_1_b909645315b840b62fd488ca0dbafe07.jpg',
+    imagem: '/bone_categoria.jpg',
   },
   {
     nome: 'Tênis',
-    imagem: 'https://images.tcdn.com.br/img/img_prod/1188746/tenis_converse_all_star_amarelo_13_2_2258f75d65c88dfdde8ca197da06720d.jpg',
+    imagem: '/tenis_categoria.jpg',
   },
   {
     nome: 'Headphones',
-    imagem: 'https://fastshopbr.vtexassets.com/arquivos/ids/498166/0-JBLLIVE770PTO-PRD-1500-1.jpg?v=638702103996270000',
+    imagem: '/headphone_categoria.jpg',
   },
 ];
 
