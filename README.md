@@ -3,16 +3,16 @@
 <img width="1335" height="625" alt="topo-site-drip-store" src="https://github.com/user-attachments/assets/a562cb5f-9edc-42ea-947f-279e90f162ff" />
 
 
-## 📝 Descrição
+## Descrição
 Drip Store é um e-commerce de streetwear construído com React 19, Vite e Tailwind CSS, como trabalho de conclusão do curso de Desenvolvimento Fullstack da Geração Tech 3.0. Ele combina um site promocional, catálogo filtrável, páginas de produto detalhadas, carrinho persistente e fluxo de autenticação, tudo amarrado por um layout composto por Header, Footer, CartDropdown e pelo CartContext, que concentra o estado de checkout.
 
-## 🔗 Repositório e demonstração
+## Repositório e demonstração
 - **GitHub:** https://github.com/marcosmerencio/drip-store
 
 - **Deploy (Vercel):** https://drip-store-xi.vercel.app/
 
 
-## 🚀 Funcionalidades principais
+## Funcionalidades principais
 - **Home:** Com hero, coleções e categorias que exibem produtos filtrados via useMemo e renderizados pelos componentes ProductListing e ProductCard.
 
 - **Catálogo:** Em /produtos com filtros por marca, categoria, gênero e condição, ordenação por preço e visualização em grade.
@@ -26,7 +26,7 @@ Drip Store é um e-commerce de streetwear construído com React 19, Vite e Tailw
 - **Navegação:** Coordenada por React Router 7 com layouts aninhados e hooks para performance e responsividade.
 
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 O projeto foi construído utilizando tecnologias modernas para garantir performance e escalabilidade:
 
 - **React 19 + React Router 7:** Camada de componentes, estados e navegação com rotas aninhadas, incluindo o provedor CartContext.
@@ -44,7 +44,7 @@ O projeto foi construído utilizando tecnologias modernas para garantir performa
 - **ESLint:** Regras e plugins para manter a padronização e segurança durante o desenvolvimento.
 
 
-## 📂 Estrutura de Arquivos
+## Estrutura de Arquivos
 A organização do projeto segue uma estrutura modular para facilitar a manutenção:
 ```Plaintext
 drip-store
@@ -61,7 +61,7 @@ drip-store
 ```
 
 
-## ⚙️ Como rodar localmente
+## Como rodar localmente
 ### Pré-requisitos:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 - **Node.js** (https://nodejs.org/en/) - Versão 18 ou superior
@@ -89,7 +89,7 @@ npm install
 npm run dev
 ```
 
-## 📈 Próximos passos sugeridos
+## Próximos passos sugeridos
 - Conectar src/services/api.js a uma API real para produtos e autenticação.
 
 - Adicionar testes automatizados para componentes críticos.
@@ -99,7 +99,7 @@ npm run dev
 - Otimizar performance visual com lazy loading e prefetch de imagens.
 
 
-## 🙏 Agradecimentos
+## Agradecimentos
 - A **Deus** pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
 
 - Ao professor Luan Oliveira pela excelente didática e acompanhamento constante durante todo o curso.
@@ -107,9 +107,9 @@ npm run dev
 - À monitora Nazaré Almeida, pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento deste projeto.
 
 
-## ✒️ Autor
+## Autor
 **Marcos Merencio** — Desenvolvedor Fullstack em formação.
 
 
-## 📄 Licença
+## Licença
 O **uso, cópia e distribuição** desse projeto são **permitidos livremente para fins de estudo e aprendizagem**.
